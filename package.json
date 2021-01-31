@@ -1,0 +1,29 @@
+{
+  "name": "Backend-Initiative-Project",
+  "version": "1.0.0",
+  "description": "This is a base repository for the backend initiative project.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vanneka/Backend-Initiative-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vanneka/Backend-Initiative-Project/issues"
+  },
+  "homepage": "https://github.com/Vanneka/Backend-Initiative-Project#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
